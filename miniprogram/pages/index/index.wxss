@@ -6,21 +6,12 @@ page {
   flex-direction: column;
   justify-content: flex-start;
 }
-
-.userinfo, .uploader, .tunnel {
-  margin-top: 40rpx;
-  height: 140rpx;
-  width: 100%;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-left: none;
-  border-right: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  transition: all 300ms ease;
+.weui-cell__hd{
+  margin-right: 20rpx;
 }
-
+.item-del .weui-cell__bd{
+  text-decoration: line-through;
+}
 .userinfo-avatar {
   width: 100rpx;
   height: 100rpx;
@@ -28,6 +19,12 @@ page {
   border-radius: 50%;
   background-size: cover;
   background-color: white;
+}
+.user-name {
+  height:100rpx;
+  line-height:100rpx;
+  display: inline-block
+
 }
 
 .userinfo-avatar:after {
